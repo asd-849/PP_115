@@ -10,9 +10,9 @@ public class Main {
         UserService test = new UserServiceImpl();
         test.createUsersTable();
         test.saveUser("Ivan", "Ivanov", (byte)14);
-        test.saveUser("Dmitriy", "Dmitrov", (byte)42);
-        test.saveUser("Alexander", "Alexandrov", (byte)31);
-        test.saveUser("Ivan", "Ivanov", (byte)14);
+        test.saveUser("Dmitriy", "ASDjLK", (byte)42);
+        test.saveUser("Alexander", "SergeDJALSev", (byte)31);
+        test.saveUser("Ivan", "Ivanov", (byte)18);
         test.getAllUsers().stream().forEach(System.out::println);
         test.cleanUsersTable();
         test.dropUsersTable();
